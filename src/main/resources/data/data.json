@@ -1,0 +1,110 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "description": "description1 en cours",
+      "floor": 1,
+      "department": "department1 en cours",
+      "name": "Miami",
+      "nbPersons": 4
+    },
+    {
+      "id": 2,
+      "description": "description2 en cours",
+      "floor": 1,
+      "department": "department2 en cours",
+      "name": "Florida",
+      "nbPersons": 2
+    },
+    {
+      "id": 3,
+      "description": "description3 en cours",
+      "floor": 1,
+      "department": "department3 en cours",
+      "name": "Texas",
+      "nbPersons": 8
+    },
+    {
+      "id": 4,
+      "description": "description4 en cours",
+      "floor": 2,
+      "department": "department4 en cours",
+      "name": "Paris",
+      "nbPersons": 18
+    },
+    {
+      "id": 5,
+      "description": "description5 en cours",
+      "floor": 2,
+      "department": "department5 en cours",
+      "name": "Lyon",
+      "nbPersons": 6
+    },
+    {
+      "id": 6,
+      "description": "description6 en cours",
+      "floor": 2,
+      "department": "department6 en cours",
+      "name": "Marseille",
+      "nbPersons": 6
+    },
+    {
+      "id": 7,
+      "description": "description7 en cours",
+      "floor": 2,
+      "department": "department7 en cours",
+      "name": "Toulousse",
+      "nbPersons": 3
+    },
+    {
+      "id": 8,
+      "description": "description8 en cours",
+      "floor": 3,
+      "department": "department8 en cours",
+      "name": "Madrid",
+      "nbPersons": 2
+    },
+    {
+      "id": 9,
+      "description": "description9 en cours",
+      "floor": 3,
+      "department": "department9 en cours",
+      "name": "Barcelone",
+      "nbPersons": 10
+    },
+    {
+      "id": 10,
+      "description": "description10 en cours",
+      "floor": 3,
+      "department": "department10 en cours",
+      "name": "London",
+      "nbPersons": 12
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "booker1",
+      "email": "booker1@yopmail.com",
+      "password": "booker1"
+    },
+    {
+      "id": 2,
+      "name": "booker2",
+      "email": "booker2@yopmail.com",
+      "password": "booker2"
+    },
+    {
+      "id": 3,
+      "name": "booker3",
+      "email": "booker3@yopmail.com",
+      "password": "booker3"
+    },
+    {
+      "id": 4,
+      "name": "booker4",
+      "email": "booker4@yopmail.com",
+      "password": "booker4"
+    }
+  ]
+}
