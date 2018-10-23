@@ -1,6 +1,5 @@
 package com.devakt.controller;
 
-import com.devakt.exception.LoginException;
 import com.devakt.service.LoginService;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

@@ -7,8 +7,3 @@ spring:
   data:
     mongodb:
       database: meetingroombooking
-
-app:
-  interval:
-    start: 30
-    end: 79

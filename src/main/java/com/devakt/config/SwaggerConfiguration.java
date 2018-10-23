@@ -1,6 +1,3 @@
-/*
- * Copyright (c) 2018 Ekino
- */
 package com.devakt.config;
 
 import org.springframework.context.annotation.Bean;

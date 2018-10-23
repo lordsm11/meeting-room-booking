@@ -2,8 +2,8 @@ package com.devakt.controller;
 
 import com.devakt.modal.BookingView;
 import com.devakt.service.BookingService;
+import lombok.AllArgsConstructor;
 import org.bson.types.ObjectId;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin(origins = {"http://localhost:3000","http://localhost:4200"}, maxAge = 3600)
+@AllArgsConstructor
 public class BookingController {
 
-    @Autowired
-    private BookingService bookingService;
+    private final BookingService bookingService;
 
     @GetMapping(value = "/rooms")
     @ResponseBody

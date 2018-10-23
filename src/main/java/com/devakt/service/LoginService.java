@@ -2,6 +2,7 @@ package com.devakt.service;
 
 import com.devakt.exception.LoginException;
 import com.devakt.repository.UserRepository;
+import com.devakt.utils.StringUtils;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +14,7 @@ public class LoginService {
 
     public void login(String email, String password) {
         userRepository.findByEmail(email)
-                .filter(user -> user.getPassword().equals(password))
+                .filter(user -> StringUtils.equals(user.getPassword(), password))
                 .orElseThrow(LoginException::new);
     }
 }

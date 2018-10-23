@@ -1,4 +1,4 @@
-package com.devakt.domain;
+package com.devakt.modal;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -12,7 +12,7 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @AllArgsConstructor
 @NoArgsConstructor
-public class Interval {
+public class IntervalView {
     String bookingDate;
     String fromTime;
     int fromTimeInt;
