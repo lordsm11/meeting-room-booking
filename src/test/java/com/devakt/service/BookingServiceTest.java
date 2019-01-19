@@ -41,6 +41,7 @@ public class BookingServiceTest {
     @Mock
     private BookingRepository bookingRepository;
 
+    /*
     @Before
     public void setUp() {
         ReflectionTestUtils.setField(bookingService, "intervalStart", 30);
@@ -90,5 +91,5 @@ public class BookingServiceTest {
                 .collect(Collectors.toList()))
                 .isEqualTo(expectedResult);
 
-    }
+    }*/
 }

@@ -191,7 +191,7 @@ public class BookingService {
                 .flatMap(b -> IntStream.range(dateToInterval(b.getFromTime()), dateToInterval(b.getToTime())).boxed())
                 .collect(Collectors.toList());
 
-        return userInterval.stream().noneMatch(bookedIntervals::contains));
+        return userInterval.stream().noneMatch(bookedIntervals::contains);
     }
 
 }

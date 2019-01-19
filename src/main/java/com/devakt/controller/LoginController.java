@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000","http://localhost:4200"}, maxAge = 3600)
+@CrossOrigin(origins = {"http://localhost:3000","http://devakt.ddns.net","http://devakt.ddns.net:3000"}, maxAge = 3600)
 @AllArgsConstructor
 public class LoginController {
 

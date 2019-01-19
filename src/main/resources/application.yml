@@ -1,5 +1,5 @@
 server:
- port: 9123
+ port: 9124
  servlet:
   context-path: /booking-service
 
@@ -7,3 +7,5 @@ spring:
   data:
     mongodb:
       database: meetingroombooking
+      port: 27018
+      host: 192.168.1.23

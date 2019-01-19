@@ -9,3 +9,4 @@ target/
 *.iws
 generated-schema/
 .DS_Store
+logs/
