@@ -6,7 +6,7 @@ node {
     try {
         def projectGroup = 'devakt'
         def projectName = 'meeting-room-booking'
-        def scmUrl = "https://github.com/lordsm11/meeting-room-booking-front.git"
+        def scmUrl = "https://github.com/lordsm11/meeting-room-booking.git"
 
 
         // Branche à builder
@@ -18,11 +18,12 @@ node {
             git url: "${scmUrl}", branch: "${branchName}"
         }
 
+
         // Build des sources
         stage('Build') {
             echo ">>> Build"
-            sh "./mvnw --version"
-            sh "./mvnw clean install"
+            sh "ls"
+            sh "./mvnw clean install package"
         }
 
         currentBuild.result = 'SUCCESS'
